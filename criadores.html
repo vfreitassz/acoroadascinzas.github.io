@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Os Criadores — A Coroa das Cinzas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="img/wallpaper-coroa-das-cinzas.png" as="image">
+
+    <!-- Estilo específico da página -->
+    <style>
+        .criadores-container {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .criador {
+            background: rgba(0,0,0,0.6);
+            padding: 25px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(155, 89, 182, 0.7);
+        }
+
+        .criador img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #9b59b6;
+            box-shadow: 0 0 15px #9b59b6;
+        }
+
+        .criador h2 {
+            margin-bottom: 5px;
+        }
+
+        .criador .funcao {
+            font-style: italic;
+            color: #caa6e8;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Tela de transição -->
+<div id="transicao"></div>
+
+<!-- Neblina animada -->
+<div id="neblina"></div>
+
+<header>
+    <h1>Os Criadores</h1>
+    <p>As mentes que deram forma às cinzas</p>
+</header>
+
+<nav>
+    <a href="index.html" class="botao">Início</a>
+    <a href="historia.html" class="botao">História</a>
+    <a href="personagem.html" class="botao">Personagem</a>
+    <a href="inimigos.html" class="botao">Inimigos</a>
+    <a href="locais.html" class="botao">Locais</a>
+    <a href="finais.html" class="botao">Finais</a>
+    <a href="criadores.html" class="botao">Criadores</a>
+</nav>
+
+<main>
+
+    <section>
+        <div class="criadores-container">
+
+            <!-- Criador 1 -->
+            <div class="criador">
+                <img src="img/criador1.png" alt="Foto do Criador 1">
+                <h2>Vitor Hugo Corrêa dos Santos de Freitas</h2>
+                <p class="funcao">Design & Mecânicas</p>
+                <p>
+                    Criador responsável pela criação da história, estética e montagem do site.</p>
+                <p>Redes sociais:</p>
+                <p>@vfreitassz</p>
+            </div>
+            
+
+            <!-- Criador 2 -->
+            <div class="criador">
+                <img src="img/criador2.png" alt="Foto do Criador 2">
+                <h2>Mariane Helena de Andrade</h2>
+                <p class="funcao">Narrativa e lore</p>
+                <p>
+                    Criadora da historia, responsável pelo personagem principal e imagens.  
+                </p>
+                <p>Redes sociais:</p>
+                <p>@marianehelenna</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© A Coroa das Cinzas</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
